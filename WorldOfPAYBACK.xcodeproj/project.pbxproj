@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC11AA4D2A04537900D8877F /* WorldOfPAYBACKApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11AA4C2A04537900D8877F /* WorldOfPAYBACKApp.swift */; };
+		AC11AA512A04537A00D8877F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC11AA502A04537A00D8877F /* Assets.xcassets */; };
+		AC11AA552A04537A00D8877F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC11AA542A04537A00D8877F /* Preview Assets.xcassets */; };
+		AC11AA7B2A0457B100D8877F /* TransactionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11AA7A2A0457B100D8877F /* TransactionsListView.swift */; };
+		AC11AA802A04585500D8877F /* TransactionsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11AA7F2A04585500D8877F /* TransactionsService.swift */; };
+		AC11AA852A04587800D8877F /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11AA842A04587800D8877F /* Transaction.swift */; };
+		AC11AA872A0458A100D8877F /* PBTransactions.json in Resources */ = {isa = PBXBuildFile; fileRef = AC11AA862A0458A100D8877F /* PBTransactions.json */; };
+		AC11AA892A045C0100D8877F /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11AA882A045C0100D8877F /* ServiceError.swift */; };
+		AC11AA8C2A0464C700D8877F /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = AC11AA8B2A0464C700D8877F /* Reachability */; };
+		AC11AA8F2A04681000D8877F /* DateFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11AA8E2A04681000D8877F /* DateFormatter+Extension.swift */; };
+		AC11AA922A0468A600D8877F /* TransactionsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11AA912A0468A600D8877F /* TransactionsListViewModel.swift */; };
+		AC11AA9B2A04FD7500D8877F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC11AA9D2A04FD7500D8877F /* Localizable.strings */; };
+		AC11AA9F2A04FE3B00D8877F /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11AA9E2A04FE3B00D8877F /* String+Extension.swift */; };
+		AC11AAA12A05064100D8877F /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11AAA02A05064100D8877F /* ActivityIndicator.swift */; };
+		AC11AAA32A05070700D8877F /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11AAA22A05070700D8877F /* TransactionRow.swift */; };
+		AC11AAA52A05B83E00D8877F /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11AAA42A05B83E00D8877F /* View+Extension.swift */; };
+		AC11AAA72A070E2F00D8877F /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11AAA62A070E2F00D8877F /* Array+Extension.swift */; };
+		AC11AAA92A07134600D8877F /* TransactionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11AAA82A07134600D8877F /* TransactionDetailView.swift */; };
+		AC11AAAB2A07138C00D8877F /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC11AAAA2A07138C00D8877F /* TransactionViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC11AA492A04537900D8877F /* WorldOfPAYBACK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldOfPAYBACK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC11AA4C2A04537900D8877F /* WorldOfPAYBACKApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldOfPAYBACKApp.swift; sourceTree = "<group>"; };
+		AC11AA502A04537A00D8877F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC11AA522A04537A00D8877F /* WorldOfPAYBACK.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WorldOfPAYBACK.entitlements; sourceTree = "<group>"; };
+		AC11AA542A04537A00D8877F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC11AA772A04575F00D8877F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AC11AA7A2A0457B100D8877F /* TransactionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsListView.swift; sourceTree = "<group>"; };
+		AC11AA7F2A04585500D8877F /* TransactionsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsService.swift; sourceTree = "<group>"; };
+		AC11AA842A04587800D8877F /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		AC11AA862A0458A100D8877F /* PBTransactions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PBTransactions.json; sourceTree = "<group>"; };
+		AC11AA882A045C0100D8877F /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		AC11AA8E2A04681000D8877F /* DateFormatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extension.swift"; sourceTree = "<group>"; };
+		AC11AA912A0468A600D8877F /* TransactionsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsListViewModel.swift; sourceTree = "<group>"; };
+		AC11AA9C2A04FD7500D8877F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AC11AA9E2A04FE3B00D8877F /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		AC11AAA02A05064100D8877F /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		AC11AAA22A05070700D8877F /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
+		AC11AAA42A05B83E00D8877F /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		AC11AAA62A070E2F00D8877F /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		AC11AAA82A07134600D8877F /* TransactionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailView.swift; sourceTree = "<group>"; };
+		AC11AAAA2A07138C00D8877F /* TransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC11AA462A04537900D8877F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC11AA8C2A0464C700D8877F /* Reachability in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC11AA402A04537900D8877F = {
+			isa = PBXGroup;
+			children = (
+				AC11AA4B2A04537900D8877F /* WorldOfPAYBACK */,
+				AC11AA4A2A04537900D8877F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC11AA4A2A04537900D8877F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC11AA492A04537900D8877F /* WorldOfPAYBACK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC11AA4B2A04537900D8877F /* WorldOfPAYBACK */ = {
+			isa = PBXGroup;
+			children = (
+				AC11AA792A04579700D8877F /* Scenes */,
+				AC11AA902A04687E00D8877F /* ViewModels */,
+				AC11AA832A04586800D8877F /* Models */,
+				AC11AA812A04585800D8877F /* Network */,
+				AC11AA782A04576F00D8877F /* Views */,
+				AC11AA8D2A0467F400D8877F /* Extensions */,
+				AC11AA772A04575F00D8877F /* Info.plist */,
+				AC11AA4C2A04537900D8877F /* WorldOfPAYBACKApp.swift */,
+				AC11AA502A04537A00D8877F /* Assets.xcassets */,
+				AC11AA522A04537A00D8877F /* WorldOfPAYBACK.entitlements */,
+				AC11AA862A0458A100D8877F /* PBTransactions.json */,
+				AC11AA9D2A04FD7500D8877F /* Localizable.strings */,
+				AC11AA532A04537A00D8877F /* Preview Content */,
+			);
+			path = WorldOfPAYBACK;
+			sourceTree = "<group>";
+		};
+		AC11AA532A04537A00D8877F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC11AA542A04537A00D8877F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC11AA782A04576F00D8877F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC11AAA02A05064100D8877F /* ActivityIndicator.swift */,
+				AC11AAA22A05070700D8877F /* TransactionRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC11AA792A04579700D8877F /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				AC11AA7A2A0457B100D8877F /* TransactionsListView.swift */,
+				AC11AAA82A07134600D8877F /* TransactionDetailView.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		AC11AA812A04585800D8877F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AC11AA7F2A04585500D8877F /* TransactionsService.swift */,
+				AC11AA882A045C0100D8877F /* ServiceError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AC11AA832A04586800D8877F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC11AA842A04587800D8877F /* Transaction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC11AA8D2A0467F400D8877F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AC11AA8E2A04681000D8877F /* DateFormatter+Extension.swift */,
+				AC11AA9E2A04FE3B00D8877F /* String+Extension.swift */,
+				AC11AAA42A05B83E00D8877F /* View+Extension.swift */,
+				AC11AAA62A070E2F00D8877F /* Array+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AC11AA902A04687E00D8877F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AC11AA912A0468A600D8877F /* TransactionsListViewModel.swift */,
+				AC11AAAA2A07138C00D8877F /* TransactionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC11AA482A04537900D8877F /* WorldOfPAYBACK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC11AA6E2A04537A00D8877F /* Build configuration list for PBXNativeTarget "WorldOfPAYBACK" */;
+			buildPhases = (
+				AC11AA452A04537900D8877F /* Sources */,
+				AC11AA462A04537900D8877F /* Frameworks */,
+				AC11AA472A04537900D8877F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldOfPAYBACK;
+			packageProductDependencies = (
+				AC11AA8B2A0464C700D8877F /* Reachability */,
+			);
+			productName = WorldOfPAYBACK;
+			productReference = AC11AA492A04537900D8877F /* WorldOfPAYBACK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC11AA412A04537900D8877F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					AC11AA482A04537900D8877F = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = AC11AA442A04537900D8877F /* Build configuration list for PBXProject "WorldOfPAYBACK" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC11AA402A04537900D8877F;
+			packageReferences = (
+				AC11AA8A2A0464C700D8877F /* XCRemoteSwiftPackageReference "Reachability" */,
+			);
+			productRefGroup = AC11AA4A2A04537900D8877F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC11AA482A04537900D8877F /* WorldOfPAYBACK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC11AA472A04537900D8877F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC11AA552A04537A00D8877F /* Preview Assets.xcassets in Resources */,
+				AC11AA9B2A04FD7500D8877F /* Localizable.strings in Resources */,
+				AC11AA872A0458A100D8877F /* PBTransactions.json in Resources */,
+				AC11AA512A04537A00D8877F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC11AA452A04537900D8877F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC11AA892A045C0100D8877F /* ServiceError.swift in Sources */,
+				AC11AA9F2A04FE3B00D8877F /* String+Extension.swift in Sources */,
+				AC11AA922A0468A600D8877F /* TransactionsListViewModel.swift in Sources */,
+				AC11AA852A04587800D8877F /* Transaction.swift in Sources */,
+				AC11AA8F2A04681000D8877F /* DateFormatter+Extension.swift in Sources */,
+				AC11AAA12A05064100D8877F /* ActivityIndicator.swift in Sources */,
+				AC11AAAB2A07138C00D8877F /* TransactionViewModel.swift in Sources */,
+				AC11AAA32A05070700D8877F /* TransactionRow.swift in Sources */,
+				AC11AA7B2A0457B100D8877F /* TransactionsListView.swift in Sources */,
+				AC11AA802A04585500D8877F /* TransactionsService.swift in Sources */,
+				AC11AAA92A07134600D8877F /* TransactionDetailView.swift in Sources */,
+				AC11AAA52A05B83E00D8877F /* View+Extension.swift in Sources */,
+				AC11AAA72A070E2F00D8877F /* Array+Extension.swift in Sources */,
+				AC11AA4D2A04537900D8877F /* WorldOfPAYBACKApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC11AA9D2A04FD7500D8877F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC11AA9C2A04FD7500D8877F /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC11AA6C2A04537A00D8877F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC11AA6D2A04537A00D8877F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AC11AA6F2A04537A00D8877F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				API_HOST = "api-test.payback.com";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = WorldOfPAYBACK/WorldOfPAYBACK.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WorldOfPAYBACK/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorldOfPAYBACK/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "World of PAYBACK";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = payback.WorldOfPAYBACK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC11AA702A04537A00D8877F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				API_HOST = api.payback.com;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = WorldOfPAYBACK/WorldOfPAYBACK.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WorldOfPAYBACK/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorldOfPAYBACK/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "World of PAYBACK";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = payback.WorldOfPAYBACK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC11AA442A04537900D8877F /* Build configuration list for PBXProject "WorldOfPAYBACK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC11AA6C2A04537A00D8877F /* Debug */,
+				AC11AA6D2A04537A00D8877F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC11AA6E2A04537A00D8877F /* Build configuration list for PBXNativeTarget "WorldOfPAYBACK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC11AA6F2A04537A00D8877F /* Debug */,
+				AC11AA702A04537A00D8877F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AC11AA8A2A0464C700D8877F /* XCRemoteSwiftPackageReference "Reachability" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ashleymills/Reachability.swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC11AA8B2A0464C700D8877F /* Reachability */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC11AA8A2A0464C700D8877F /* XCRemoteSwiftPackageReference "Reachability" */;
+			productName = Reachability;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AC11AA412A04537900D8877F /* Project object */;
+}

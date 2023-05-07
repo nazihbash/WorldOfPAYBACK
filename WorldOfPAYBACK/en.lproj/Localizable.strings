@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  WorldOfPAYBACK
+
+  Created by Nazih Al Bach on 05.05.23.
+  
+*/
+"Device Offline" = "Device Offline";
+"Service Error" = "Service Error";
+"Your device is not connected to the Internet." = "Your device is not connected to the Internet.";
+"Something went wrong." = "Something went wrong.";
+"Transactions" = "Transactions";
+"Total" = "Total";
