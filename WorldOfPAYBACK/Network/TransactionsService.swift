@@ -53,7 +53,7 @@ struct TransactionsService: TransactionsFetchable {
       .decode(type: TransactionItems.self, decoder: decoder)
       .mapError { .decoder(error: $0) }
       .map { $0.items }
-      .delay(for: 3, scheduler: RunLoop.main)
+      .delay(for: 2, scheduler: RunLoop.main)
       .eraseToAnyPublisher()
   }
 }
